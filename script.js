@@ -4,6 +4,7 @@ let yearInput = document.querySelector('#year')
 
 let buttonCheck = document.querySelector('button')
 let result = document.querySelector('#result')
+let description = document.querySelector('#description')
 let title = document.querySelector('h1')
 
 let body = document.body
@@ -27,6 +28,7 @@ buttonCheck.addEventListener('click', ()=>{
 
         title.style.color = textColour
         result.style.color = textColour
+        description.style.color = textColour
 
         //Set background-color and result
         body.style.backgroundColor = colour
