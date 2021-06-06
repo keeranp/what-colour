@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1{
+    font-size: 4em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    margin-bottom: 5%;
+}
+
+form input, button{
+    text-align: center;
+    padding: 8px 16px;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all .25s;
+}
+
+button:hover{
+    padding: 12px 24px;
+    font-size: 1.25em;
+}
