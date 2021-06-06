@@ -3,20 +3,28 @@
 body{
     margin: 0;
     height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.content{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1{
-    font-size: 4.17vw;
+    font-size: 4.17vmax;
     margin: 0;
 }
 
 h2{
-    font-size: 1.6vw;
+    font-size: 1.6vmax;
 }
 
 form{
@@ -32,12 +40,12 @@ form{
 
 form input, button{
     text-align: center;
-    height: 2vw;
-    width: 12.5vw;
+    height: 2vmax;
+    width: 12.5vmax;
     border-width: 1px;
     border-color: rgba(0, 0, 0, 0.5);
     background-color: white;
-    font-size: 1vw;
+    font-size: 1vmax;
 }
 
 button{
@@ -47,7 +55,18 @@ button{
 }
 
 button:hover{
-    height: 2.5vw;
-    width: 15.5vw;
-    font-size: 1.25em;
+    height: 2.5vmax;
+    width: 15.5vmax;
+    font-size: 1.25vmax;
+}
+
+@media (orientation: portrait) {
+    .content{
+        width: 100vw;
+    }
+
+    .input{
+        display: flex;
+        flex-direction: column;
+    }
 }
