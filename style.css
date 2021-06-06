@@ -11,8 +11,12 @@ body{
 }
 
 h1{
-    font-size: 4em;
+    font-size: 4.17vw;
     margin: 0;
+}
+
+h2{
+    font-size: 1.6vw;
 }
 
 form{
@@ -28,10 +32,12 @@ form{
 
 form input, button{
     text-align: center;
-    padding: 8px 16px;
+    height: 2vw;
+    width: 12.5vw;
     border-width: 1px;
     border-color: rgba(0, 0, 0, 0.5);
     background-color: white;
+    font-size: 1vw;
 }
 
 button{
@@ -41,6 +47,7 @@ button{
 }
 
 button:hover{
-    padding: 12px 24px;
+    height: 2.5vw;
+    width: 15.5vw;
     font-size: 1.25em;
 }
