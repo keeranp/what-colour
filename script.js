@@ -3,7 +3,7 @@ let monthInput = document.querySelector('#month')
 let yearInput = document.querySelector('#year')
 
 let buttonCheck = document.querySelector('button')
-let result = document.querySelector('h2')
+let result = document.querySelector('#result')
 let title = document.querySelector('h1')
 
 let body = document.body
